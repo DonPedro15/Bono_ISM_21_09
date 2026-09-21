@@ -1,0 +1,24 @@
+.recibir-box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: fit-content;
+}
+
+.hex-input {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  width: 12rem;
+}
+
+.mostrar-btn {
+  border: 2px solid #000;
+  border-radius: 4px;
+  background: #fff;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

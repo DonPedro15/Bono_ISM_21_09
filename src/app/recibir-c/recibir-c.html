@@ -1,0 +1,10 @@
+<div class="recibir-box">
+  <input
+    class="hex-input"
+    type="text"
+    placeholder="#RRGGBB"
+    [value]="valorHex()"
+    (input)="onInput($event)"
+  />
+  <button class="mostrar-btn" type="button" (click)="mostrar()">show</button>
+</div>

@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.top-row {
+  width: fit-content;
+}
+
+.bottom-row {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

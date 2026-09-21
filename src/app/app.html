@@ -1,0 +1,20 @@
+<div class="layout">
+  <div class="top-row">
+    <app-recibir-c
+      [colorActual]="colorHex()"
+      (colorIngresado)="onColorRecibido($event)"
+    ></app-recibir-c>
+  </div>
+
+  <div class="bottom-row">
+    <div class="left-col">
+      <app-indicar-c letra="R" [(valor)]="r"></app-indicar-c>
+      <app-indicar-c letra="G" [(valor)]="g"></app-indicar-c>
+      <app-indicar-c letra="B" [(valor)]="b"></app-indicar-c>
+    </div>
+
+    <div class="right-col">
+      <app-mostrar-c [color]="colorHex()" [gris]="grisHex()"></app-mostrar-c>
+    </div>
+  </div>
+</div>

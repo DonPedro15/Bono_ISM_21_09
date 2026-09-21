@@ -1,0 +1,14 @@
+.mostrar-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 14rem;
+}
+
+.color-cell,
+.gris-cell {
+  height: 5rem;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background: #fff;
+}

@@ -1,0 +1,12 @@
+<div class="indicar-box">
+  <span class="letra">{{ letra() }}</span>
+  <input
+    class="valor"
+    type="text"
+    title="Decimal (0-255) o hexadecimal (ej. FF)"
+    [value]="texto()"
+    (input)="onInput($event)"
+    (blur)="confirmar()"
+    (keydown.enter)="confirmar()"
+  />
+</div>
